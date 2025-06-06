@@ -1,0 +1,17 @@
+{
+  "extends": ["@tsconfig/svelte/tsconfig.json"],
+  "compilerOptions": {
+    "composite": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts", "views/**/*.ts"]
+}
